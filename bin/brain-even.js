@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import greetUser from "../src/cli.js";
 
 
 const getRandomNumber = () => Math.floor(Math.random() * 100) + 1;
