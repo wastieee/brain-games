@@ -4,10 +4,13 @@
   "description": "[![Actions Status](https://github.com/wastieee/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/wastieee/frontend-project-44/actions)",
   "main": "brain-games.js",
   "bin": {
+
+    "brain-gcd": "bin/brain-gcd.js",
     "brain-games": "bin/brain-games.js",
-    "brain-games": "bin/brain-even.js",
-    "brain-games": "bin/brain-calc.js",
-    "brain-games": "bin/brain-gcd.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "type": "module",
   "scripts": {
@@ -29,7 +32,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.26.0",
-    "eslint": "^9.26.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
     "globals": "^16.1.0"
   }
 }
