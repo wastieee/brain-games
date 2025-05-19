@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 
 const getRandomNumber = () => Math.floor(Math.random() * 100) + 1;
@@ -31,6 +33,5 @@ const runGame = () => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default runGame;
 
 runGame();
