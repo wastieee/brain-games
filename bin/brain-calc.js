@@ -5,7 +5,7 @@ const operators = ['+', '-', '*']
 
 const getRandomNumber = () => Math.floor(Math.random() * 100)
 const getRandomOperator = () => operators[Math.floor(Math.random() * operators.length)]
-//Перенести в helpers
+/*Перенести в helpers*/
 const calculate = (a, b, operator) => {
   switch (operator) {
     case '+':
@@ -27,7 +27,7 @@ const runGame = () => {
 
   const roundsCount = 3
 
-  //Перенести функцию в отдельный файл
+  /*Перенести функцию в отдельный файл*/
   for (let i = 0; i < roundsCount; i += 1) {
     const num1 = getRandomNumber()
     const num2 = getRandomNumber()
